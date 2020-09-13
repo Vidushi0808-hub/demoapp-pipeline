@@ -4,6 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Build initiated'
+        sh 'sh run_build_script.sh'
       }
     }
 
